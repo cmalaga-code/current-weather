@@ -1,0 +1,14 @@
+.welcome {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    align-self: center;
+}
+
+.logo {
+    width: 3em;
+}
+
+.header-mobile {
+    font-size: medium;
+    font-weight: bold;
+}
