@@ -24,3 +24,5 @@ yarn-error.log*
 
 # EXAMPLE FILE API
 example.json
+
+.idea
