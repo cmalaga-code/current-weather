@@ -50,7 +50,7 @@ function Card({isMobileSize}) {
             "Content-Type": "application/json"
         });
         fetch(
-            `http://ec2-18-220-181-234.us-east-2.compute.amazonaws.com/current/weather?lat=${latitude}&long=${longitude}`,
+            `https://current-weather.cmalaga.com/current/weather?lat=${latitude}&long=${longitude}`,
             {method: 'GET', headers: requestHeader, mode: 'cors'}
         )
             .then(response => {
