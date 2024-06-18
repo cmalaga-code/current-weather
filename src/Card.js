@@ -50,7 +50,7 @@ function Card({isMobileSize}) {
             "Content-Type": "application/json"
         });
         fetch(
-            `https://current-weather-backend.onrender.com?lat=${latitude}&long=${longitude}`,
+            `https://current-weather-backend.onrender.com/current/weather?lat=${latitude}&long=${longitude}`,
             {method: 'GET', headers: requestHeader, mode: 'cors'}
         )
             .then(response => {
